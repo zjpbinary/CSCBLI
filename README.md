@@ -44,7 +44,7 @@ CUDA_VISIBLE_DEVICES=0 python test_on_all_word.py --src_lang $lg\
 
 ```
 lg=ar
-CUDA_VISIBLE_DEVICES=0 python train.py --src_lang en --tgt_lang $lg --mode $md\
+CUDA_VISIBLE_DEVICES=0 python train.py --src_lang en --tgt_lang $lg\
   --static_src_emb_path $ssemb --static_tgt_emb_path $stemb\
   --context_src_emb_path $csemb --context_tgt_emb_path $ctemb\
    --save_path $save_path 
