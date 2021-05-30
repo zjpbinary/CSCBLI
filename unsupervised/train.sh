@@ -9,13 +9,13 @@ set -e
 #         stemb=$static_vecmap_dir/en-$lg.$lg.our.mapped.txt
 #         csemb=$context_dir/en.avg.vec
 #         ctemb=$context_dir/$lg.avg.vec
-#         # data_path=/home/jpzhang/py36pt12/vecmap/pre_train_data/en-$lg.train.csls.data
+#         # data_path=
 #         save_path=./checkpoints_dynamic_neg/en-$lg-$md.pkl
 #         CUDA_VISIBLE_DEVICES=1 python train.py --src_lang en --tgt_lang $lg --mode $md\
 #         --static_src_emb_path $ssemb --static_tgt_emb_path $stemb\
 #         --context_src_emb_path $csemb --context_tgt_emb_path $ctemb\
-#          --save_path $save_path --vecmap_context_src_emb_path /data4/bjji/vecmap_avg_out/en-$lg.en.our.mapped.txt \
-#          --vecmap_context_tgt_emb_path /data4/bjji/vecmap_avg_out/en-$lg.$lg.our.mapped.txt
+#          --save_path $save_path --vecmap_context_src_emb_path 
+#          --vecmap_context_tgt_emb_path 
 #     done
 # done
 
