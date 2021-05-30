@@ -1,7 +1,7 @@
 set -e
 
-#static_vecmap_dir=/data4/bjji/source/No_sup_vecmap/vecmap_out
-#context_dir=/data4/bjji/source/No_sup_vecmap/our_real_avg_bpe_vec
+#static_vecmap_dir=
+#context_dir=
 
 # for lg in es ar de zh fr; do
 #     for md in add_orign_nw; do
@@ -21,9 +21,9 @@ set -e
 
 
 
-static_vecmap_dir=/data2/jpzhang/Wacky/unsup_align_vec
-context_dir=/data2/jpzhang/Wacky
-#vecmap_context_dir=/data2/jpzhang/new_unsup_vecmap_avg_out
+static_vecmap_dir=
+context_dir=
+
 for lg in de fr ; do
     for md in add_orign_nw; do
         ssemb=$static_vecmap_dir/$lg-en.$lg.our.mapped.txt
