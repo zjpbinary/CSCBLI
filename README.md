@@ -6,7 +6,7 @@ python >= 3.6
 numpy >= 1.9.0  
 pytorch >= 1.0  
 ## Supervised
-# How to train
+### How to train
 
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py --src_lang $lg --tgt_lang en\
@@ -22,7 +22,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --src_lang $lg --tgt_lang en\
 --context_tgt_emb_path  target context embedding path
 ```
 
-# How to Test
+### How to Test
 
 ```
 CUDA_VISIBLE_DEVICES=0 python test_on_all_word.py --src_lang $lg\
