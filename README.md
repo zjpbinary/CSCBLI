@@ -1,5 +1,6 @@
 # CSCBLI
-Code for our ACL Findings 2021 paper, "Combining Static Word Embedding and Contextual Representations for Bilingual Lexicon Induction".  
+Code for our ACL Findings 2021 paper,  
+"Combining Static Word Embedding and Contextual Representations for Bilingual Lexicon Induction".  
 
 ## Requirements
 python >= 3.6  
